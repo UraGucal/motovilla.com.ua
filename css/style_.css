@@ -1,0 +1,172 @@
+*{
+  box-sizing: border-box;
+}
+
+.col-xl-3.col-lg-4.col-md-4.col-12{
+  padding: 0;
+}
+
+.contant__menu__list.col-12.col-md-12.col-lg-4.col-xl-3{
+  padding: 0;
+}
+
+.col-xl-6.col-lg-5.col-md-5.col-12{
+  padding: 0;
+  margin: 0 auto;
+  align-items: center;
+ 
+}
+
+.modal__social{
+  background-color: rgb(71, 86, 103);
+}
+
+.modal__icons{
+  font-size: 30px;
+  color:rgb(218, 229, 238);
+  
+}
+
+.v__modal__top.d-flex.justify-content-between.mb-4{
+  border-radius: 4px;
+  
+}
+
+.header__modal__tittle{
+  color: rgb(32, 29, 29);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.v__modal__body{
+  background-color:rgb(43, 41, 58);
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.v__modal{
+ display: none;
+ cursor: pointer;
+ z-index: 200;
+}
+
+.v__modal__bg{
+  position: fixed;
+  background-color:#000;
+  top:  0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.8;
+  z-index: 200;
+}
+
+.v__modal__wrapper{
+  position: fixed;
+  height: auto;
+  z-index: 400;
+  box-shadow: 1px 2px 6px rgb(117, 113, 148);
+  animation-name: v-modal;
+  animation-duration: 0.7s;
+  background: #7d8a97;
+}
+
+.modal__footer.column{
+  text-align: center;
+  background-color: rgb(43, 42, 42);
+  opacity: 0.8;
+  box-shadow: 1px 3px 4px 4px rgb(162, 159, 159);
+  border-radius: 4px;
+}
+
+
+.modal__footer__tittle{
+  color:#18b750;
+}
+
+.modal__footer__phone{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.modal__icon__wrapper{
+  border: none;
+}
+
+i {
+  font-family: fontawesome !important;
+  }
+
+/* **************************************************************************************** */
+
+@keyframes v-modal {
+  0%{
+    left: -600px;
+    
+  }
+
+
+  100%{
+    left: 0;
+  }
+}
+
+
+.list__menu__sublink{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+
+ 
+}
+
+.header__top__phone{
+  font-weight: 700;
+  
+  line-height: 6px;
+}
+
+.number__phone{
+  font-size: 20px;
+}
+
+
+.bi-x-circle-fill{
+  color: #18b750;
+  cursor: pointer;
+}
+
+
+.header__phone__subtittle{
+  font-weight: 700;
+  color:#18b750;
+  letter-spacing: 0.1px;
+}
+
+
+.bi-telephone-inbound-fill{
+  margin-right: 10px;
+  color: rgb(42, 179, 8);
+}
+
+.btn-success{
+  padding: 10px;
+}
+
+
+.modal__item{
+  line-height: 22px;
+  list-style: none;
+  padding: 8px;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(107, 104, 135);
+}
+
+.modal__link{
+  text-decoration: none;
+  color: rgb(239, 228, 228);
+}
+
+body .contant .section__cards .container .main__show__other__models .nav__cards{
+  overflow: hidden;
+}
