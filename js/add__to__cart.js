@@ -1,6 +1,10 @@
 buy__list = document.querySelector('.buy__list');
 window.addEventListener('click', function(event){
     if(event.target.hasAttribute('data-cart')){
+       const div = document.createElement('div');
+       div.classList.add('ModalSuccessfulAddition');
+       const product__card__wrap = document.querySelector('.product__card__wrap');
+       product__card__wrap.appendChild(div);
         const cardParent = event.target.closest('.product__card'); //Находим родителя кнопки по которой
         const productInfo = {   //собираем все в обьект
               id: cardParent.dataset.id,

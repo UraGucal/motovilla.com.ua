@@ -10,997 +10,998 @@
   <link rel="stylesheet" href="css/style_.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mediaQueries.css">
+  <link rel="stylesheet" href="css/ModalSuccessfulAddition.css">
   <script src="https://use.fontawesome.com/f961ebc024.js"></script>
 </head>
 <body>
   
   <div class="cart__window__dark__overlay"></div>
   <!-- ------------------------------------ -->
-  <div class="v__modal" id="modal">
-    <div class="v__modal__bg"></div>
-    <div class="v__modal__wrapper p-2">
-      <div class="v__modal__top d-flex justify-content-between mb-2">
-        <p class="header__modal__tittle m-auto">МОТОЗАПЧАСТИ</p>
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" id="close" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
-          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
-        </svg>
-      </div>
-      <div class="v__modal__body">
-        <nav class="modal__nav__menu"> 
-          <ul class="modal__menu__list">
-            <li class="modal__item">
-              <a href="#" class="modal__link">Мотозапчасти</a>
-            </li>
-            <li class="modal__item">
-              <a href="#" class="modal__link">Аксессуары и тюнинг</a>
-            </li>
-            <li class="modal__item">
-              <a href="#" class="modal__link">Колеса и Резина</a>
-            </li>
-            <li class="modal__item">
-              <a href="#" class="modal__link">Масла и Химия</a>
-            </li>
-            <li class="modal__item">
-              <a href="#" class="modal__link">Мотоэкипировка</a>
-            </li>
-            <li class="modal__item">
-              <a href="#" class="modal__link">Велозапчасти</a>
-            </li>
-            <li class="modal__item">
-              <a href="#" class="modal__link">Запчасти для безоинструмента</a>
-            </li>
-            <li class="modal__item">
-              <a href="#" class="modal__link">Запчасти для мотоблоков</a>
-            </li>
-            <li class="modal__item">
-              <a href="#" class="modal__link">Запчасти для газонокосилок</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="modal__footer column">
-        <h4 class="modal__footer__tittle">Заказы через сайт 24/7</h4>
-        <div class="modal__social d-flex justify-content-evenly">
-          <a class="btn btn-outline-dark btn-floating m-1 modal__icon__wrapper" href="#!" role="button">
-            <i class="fa-brands fa-telegram modal__icons"></i>
-          </a>
-          <a class="btn btn-outline-dark btn-floating m-1 modal__icon__wrapper" href="#!" role="button">
-            <i class="fab fa-google modal__icons"></i>
-          </a>
-          <a class="btn btn-outline-dark btn-floating m-1 modal__icon__wrapper" href="#!" role="button">
-            <i class="fab fa-instagram modal__icons"></i>
-          </a>
-          <a class="btn btn-outline-dark btn-floating m-1 modal__icon__wrapper" href="#!" role="button">
-            <i class="fa-brands fa-facebook-square modal__icons"></i>
-          </a>
+    <div class="v__modal" id="modal">
+      <div class="v__modal__bg"></div>
+      <div class="v__modal__wrapper p-2">
+        <div class="v__modal__top d-flex justify-content-between mb-2">
+          <p class="header__modal__tittle m-auto">МОТОЗАПЧАСТИ</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" id="close" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+          </svg>
         </div>
-        <p class="modal__footer__number text-light m-0">Позвоните нам: 066-6228-355</p>
-      </div>
-    </div>
-  </div>
-  <!-- Шапка -->
-  <header class="header mb-1">
-    <div class="header__top text-center">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="logo col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-6">
-            <a href="http://"><img class="col-xxl-10 col-md-10 col-12" src="img/logo.png" alt=""></a>
-          </div>
-          <div class="mobile__phone col-3">
-            <a href="tel:+380666228355" class="mobile__phone__link" href="">
-              <svg xmlns="http://www.w3.org/2000/svg" width="46" height="45" fill="currentColor" class="bi bi-phone-vibrate text-dark" viewBox="0 0 16 16">
-                <path d="M10 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6z"/>
-                <path d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM1.599 4.058a.5.5 0 0 1 .208.676A6.967 6.967 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A7.968 7.968 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208zm12.802 0a.5.5 0 0 1 .676.208A7.967 7.967 0 0 1 16 8a7.967 7.967 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A6.967 6.967 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676zM3.057 5.534a.5.5 0 0 1 .284.648A4.986 4.986 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A5.986 5.986 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284zm9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8c0 .769-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8c0-.642-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648z"/>
-              </svg>
-            </a>
-          </div>
-          <div class="shopping__cart__mobile col-xl-1 col-lg-2 col-md-1 col-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38"  class="shoppincart__svg" viewBox="0 0 16 16">
-              <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z"/>
-              <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"/>
-            </svg>
-            <span class="shoping__card__counter__mobile">0</span>
-          </div>
-          <div class="form__wrapper col-xxl-5 col-xl-4 col-lg-6 col-md-5 col-12 ">
-            <form method="post"  action="action_page.php" class="form__search" >
-              <input type="search" type="text"  placeholder="поиск запчастей..." class="input__search col-xxl-8 col-xl-10 col-lg-10 col-md-11 col-10" name="search">
-              <button type="submit" class="btn__search  col-xl-2 col-md-2 col-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search search__icon" viewBox="0 0 16 16">
-                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                </svg>
-              </button>
-            </form>
-          </div>
-          <div class="header__top__phone col-xxl-2 col-xl-3 col-lg-3 col-md-2 col-2  text-center">
-            <p class="number__phone">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="phone__icon bi bi-telephone-fill" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-              </svg> (066)6-228-355
-            </p>
-            <span class="header__phone__subtittle">Заказы через сайт 24/7</span>
-          </div>
-          <div class="user__desctop col-xl-1 col-lg-1 col-md-2 col-2  text-center">
-            <img src="img/user__icon.svg" width="46px" height="46px"></img>
-          </div>
-          <div class="shopping__cart__desctop col-xl-1 col-lg-2 col-md-1 col-2 text-center p-2" tabindex="0">
-            <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" class="shoppincart__svg bi bi-basket2" viewBox="0 0 16 16">
-              <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z"/>
-              <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"/>
-            </svg>
-            <span class="shoping__card__counter" >0</span>
-            <div class="cart__content__wrapp">
-              <div class="cart__content">
-                <h3 class="cart__tittle">Корзина покупок</h3>
-                <ul class="buy__list wow fadeInLeft" data-wow-duration="0.2s">
-                </ul>
-                <button class="btn  btn__buy wow pulse" data-wow-iteration="1000">Оформить заказ</button>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="header__bottom text-center align-center">
-      <div class="container">
-        <div class="row">
-          <div class="btn__wrapper col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-12">
-              <button  class="btn btn__open__catalog  p-2 d-flex" id="btn__modal">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-filter-left" viewBox="0 0 16 16">
-                  <path d="M2 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
-                </svg>
-                <div class="catalog__tittle d-flex text-center m-auto">КАТАЛОГ ТОВАРОВ</div>
-              </button>
-          </div>
-          <ul class="list col-xl-7 col-lg-8 col-md-6">
-            <li class="nav__item">
-              <a href="#" class="nav__link">
-                Доставка
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">
-                Возврат и Обмен
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">
-                Акции и Кешбек
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">
-                Контакты
-              </a>
-            </li>
-          </ul>
-          <div class="header__reviews col-xl-2 col-lg-1 col-md-2 p-0">
-            <li class="nav__item">
-              <a class="nav__link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-chat-dots-fill header__bottom__nav__icon" viewBox="0 0 16 16">
-                  <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-                </svg>Отзывы 
-              </a>
-            </li>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <main class="contant">
-    <div class="contant__bg mb-2">
-      <div class="container">
-        <div class="contant__mobile__bg">
-          <img src="img/mobile__bg.png" alt="">
-        </div>
-        <div class="row left__menu ">
-          <ul class="contant__menu__list col-12 col-md-4 col-lg-3 col-xl-3">
-            <li class="list__menu__subitem">
-              <a href="" class="list__menu__sublink  fa-motorcycle">
-                Мотозапчасти
-              </a>
-            </li>
-            <li class="list__menu__subitem">
-              <a href="#" class="list__menu__sublink fa-solid fa-star">
-                Аксессуары и тюнинг
-              </a>
-            </li>
-            <li class="list__menu__subitem">
-              <a href="#" class="list__menu__sublink fa-solid fa-star">
-                Колеса и резина</a>
-            </li>
-            <li class="list__menu__subitem">
-              <a href="#" class="list__menu__sublink fa-solid fa-star">
-                Масла и химия</a>
-            </li>
-            <li class="list__menu__subitem">
-              <a href="#" class="list__menu__sublink fa-solid fa-star">
-                Мотоэкипировка</a>
-            </li>
-            <li class="list__menu__subitem">
-              <a href="#" class="list__menu__sublink fa-regular fa-bicycle">
-                Велозапчасти</a>
-            </li>
-            <li class="list__menu__subitem">
-              <a href="" class="list__menu__sublink fa-solid fa-star">
-                 Запчасти для бензоинструмента</a>
-            </li>
-            <li class="list__menu__subitem">
-              <a href="" class="list__menu__sublink fa-solid fa-star">
-                 Запчасти для газонокосилок</a>
-            </li>
-          </ul>
-          <div class="main__tittle col-xxl-4 col-xl-4 col-lg-4 col-md-3 pt-5 mb-5 text-center">
-            <h1 class=" wow fadeInLeft mb-4" data-wow-delay="0.5s">Запчасти на скутер мопед, мотоцикл. </h1>
-            <p class="main__subtittle  wow fadeInUp mb-5" data-wow-delay="1s">Интернет магазин №1 в Украине!</p>
-            <button class="main__consultation btn btn-warning p-2 wow fadeInUp " id="consultation" data-wow-delay="1.3s">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
-          </div>
-          <div class="moto__animate col-xxl-5 col-xl-5 col-lg-5 col-md-5 d-flex justify-content-end h-100 p-0">
-            <img class="moto__animate__image col-xxl-12 col-xl-12 col-lg-12 col-md-12" src="img/moto__element.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-    <section class="section__cards ">
-      <div class="container">
-        <h2 class="select__modal__tittle text-center ">Выберите запчасть по модели:</h2>
-        <div class="main__first__model__cards row">
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/alpha.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Alpha</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/atv.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Delta</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/delta.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Delta</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/gy6.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">GY6</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/honda.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Honda</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/irbis.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Irbis</span>
-            </a>
-          </div>
-          <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/kawassaki.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">kawassaki</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/kinlon.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Kinlon</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/ktv.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">KTM</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/lifan.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">lifan</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/loncin.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Loncin</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/musstang.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">mustang</span>
-            </a>
-          </div>
-        </div>
-        <div id="main__show__btn__wrapp" class="main__show__btn__wrapp">
-          <button id="btn__other__models" class="btn__show__other__models wow pulse"  data-wow-iteration="100">Выбрать другую модель</button>
-        </div>
-        <div id="show__models" class="main__show__other__models row">
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/alpha.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Alpha</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/atv.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Delta</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/delta.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Delta</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/gy6.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">GY6</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/honda.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Honda</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/irbis.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Irbis</span>
-            </a>
-          </div>
-          <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/kawassaki.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">kawassaki</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/kinlon.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Kinlon</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/ktv.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">KTM</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/lifan.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">lifan</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/loncin.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">Loncin</span>
-            </a>
-          </div>
-          <div class="nav__cards col-4 col-sm-3 col-md-2">
-            <a class="nav__cards__link" href="#">
-              <img src="./img/musstang.webp" class="nav__cards__inner__image" alt="...">
-              <span href="" class="nav__cards__tittle">mustang</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="pop__category text-center mb-5">
-      <h2 class="pop__category__tittle">Популярные категории</h2>
-      <div class="container">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Мотозапчасти</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Аксессуары и тюнинг</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Колеса и резина</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Масла и Химия</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Мотоэкипировка</button>
-          </li>
-        </ul>
-        <!-- Тыбы категорий -->
-        <div class="tab-content">
-          <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
-            <div class="row">
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/image_385.webp" alt="">
-                  <p class="category__name">Запчасти для двигателя</p>
-                </span>
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/image_386.webp" alt="">
-                  <p class="category__name">Поршни</p>
-                </span>
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/image_387.webp" alt="">
-                  <p class="category__name">Поршневые кольца</p>
-                </span>
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/image_388.webp" alt="">
-                  <p class="category__name">Поршневые и цпг</p>
-                </span>
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/image_18.webp" alt="">
-                  <p class="category__name">Электрика</p>
-                </span>
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/image_6.webp" alt="">
-                  <p class="category__name">Лампы и свет</p>
-                </span>
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/10.webp" alt="">
-                  <p class="category__name">Вариаторы и редукторы</p>
-                </span>
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/11.webp" alt="">
-                  <p class="category__name">Фильтры</p>
-                </span>
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/image_6.webp" alt="">
-                  <p class="category__name">Пластик навесной и крылья</p>
-                </span>
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/12.webp" alt="">
-                  <p class="category__name">Карбюраторы</p>
-                </span>
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/13.webp" alt="">
-                  <p class="category__name">Амортизаторы и подвеска</p>
-                </span>
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/14.webp" alt="">
-                  <p class="category__name">Руль и управление</p>
-                </span>
-              </a>
-            </div>
-          </div>
-          <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            <div class="row d-flex">
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/image_385.webp" alt="">
-                  <p class="category__name">Руль и управление</p>
-                </span>
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/image_386.webp" alt="">
-                  <p class="category__name">Руль и управление</p>
-                </span>Поршни
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/image_387.webp" alt="">
-                  <p class="category__name">Руль и управление</p>
-                </span>Поршневые кольца
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/image_388.webp" alt="">
-                  <p class="category__name">Руль и управление</p>
-                </span>Поршневые и цпг
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/image_18.webp" alt="">
-                  <p class="category__name">Руль и управление</p>
-                </span>Электрика
-              </a>
-              <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
-                <span class="card__category">
-                  <img class="tab__image w-100" src="img/image_6.webp" alt="">
-                  <p class="category__name">Руль и управление</p>
-                </span>Лампы и свет
-              </a>
-            </div>
-          </div>
-          <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
-          <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
-        </div>
-      </div>
-    </section>
-    <article>
-      <div class="container">
-        <div class="news__contant">
-          <h2 class="news__contant__tittle text-center">Новостной блог</h2>
-          <div class="row">
-            <ul class="news__list">
-              <li class="news__card col-xxl-3">
-                <img class="news__image" src="img/blog__image_2.webp" alt="">
-                <p class="news__content__text">
-                  В мотоцикле важен баланс. В конструкции все продумано, кроме человеческого фактора – то, как ты сидишь влияет на нагрузку на подвеску. Вот и первый совет – садись поближе к баку – так ты смещаешь центр тяжести, разгружая заднюю подвеску.
-                </p>
+        <div class="v__modal__body">
+          <nav class="modal__nav__menu"> 
+            <ul class="modal__menu__list">
+              <li class="modal__item">
+                <a href="#" class="modal__link">Мотозапчасти</a>
               </li>
-              <li class="news__card col-xxl-3">
-                <img class="news__image" src="img/blog_image_3.webp" alt="">
-                <p class="news__content__subtittle">
-                  В мотоцикле важен баланс. В конструкции все продумано, кроме человеческого фактора – то, как ты сидишь влияет на нагрузку на подвеску. Вот и первый совет – садись поближе к баку – так ты смещаешь центр тяжести, разгружая заднюю подвеску. 
-                </p>
+              <li class="modal__item">
+                <a href="#" class="modal__link">Аксессуары и тюнинг</a>
               </li>
-              <li class="news__card col-xxl-3">
-                <img class="news__image" src="img/blog_image_4.webp" alt="">
-                <p class="news__content__subtittle">
-                  В мотоцикле важен баланс. В конструкции все продумано, кроме человеческого фактора – то, как ты сидишь влияет на нагрузку на подвеску. Вот и первый совет – садись поближе к баку – так ты смещаешь центр тяжести, разгружая заднюю подвеску. 
-                </p>
+              <li class="modal__item">
+                <a href="#" class="modal__link">Колеса и Резина</a>
               </li>
-              <li class="news__card col-xxl-3">
-                <img class="news__image" src="img/blog_image_5.webp" alt="">
-                <p class="news__content__subtittle">
-                  В мотоцикле важен баланс. В конструкции все продумано, кроме человеческого фактора – то, как ты сидишь влияет на нагрузку на подвеску. Вот и первый совет – садись поближе к баку – так ты смещаешь центр тяжести, разгружая заднюю подвеску.
-                </p>
+              <li class="modal__item">
+                <a href="#" class="modal__link">Масла и Химия</a>
+              </li>
+              <li class="modal__item">
+                <a href="#" class="modal__link">Мотоэкипировка</a>
+              </li>
+              <li class="modal__item">
+                <a href="#" class="modal__link">Велозапчасти</a>
+              </li>
+              <li class="modal__item">
+                <a href="#" class="modal__link">Запчасти для безоинструмента</a>
+              </li>
+              <li class="modal__item">
+                <a href="#" class="modal__link">Запчасти для мотоблоков</a>
+              </li>
+              <li class="modal__item">
+                <a href="#" class="modal__link">Запчасти для газонокосилок</a>
               </li>
             </ul>
-            <div class="see__more__news__wrapp">
-              <button class="btn  btn__see__more__news">Смотреть все новости</button>
+          </nav>
+        </div>
+        <div class="modal__footer column">
+          <h4 class="modal__footer__tittle">Заказы через сайт 24/7</h4>
+          <div class="modal__social d-flex justify-content-evenly">
+            <a class="btn btn-outline-dark btn-floating m-1 modal__icon__wrapper" href="#!" role="button">
+              <i class="fa-brands fa-telegram modal__icons"></i>
+            </a>
+            <a class="btn btn-outline-dark btn-floating m-1 modal__icon__wrapper" href="#!" role="button">
+              <i class="fab fa-google modal__icons"></i>
+            </a>
+            <a class="btn btn-outline-dark btn-floating m-1 modal__icon__wrapper" href="#!" role="button">
+              <i class="fab fa-instagram modal__icons"></i>
+            </a>
+            <a class="btn btn-outline-dark btn-floating m-1 modal__icon__wrapper" href="#!" role="button">
+              <i class="fa-brands fa-facebook-square modal__icons"></i>
+            </a>
+          </div>
+          <p class="modal__footer__number text-light m-0">Позвоните нам: 066-6228-355</p>
+        </div>
+      </div>
+    </div>
+    <!-- Шапка -->
+    <header class="header mb-1">
+      <div class="header__top text-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="logo col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-6">
+              <a href="http://"><img class="col-xxl-10 col-md-10 col-12" src="img/logo.png" alt=""></a>
+            </div>
+            <div class="mobile__phone col-3">
+              <a href="tel:+380666228355" class="mobile__phone__link" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="46" height="45" fill="currentColor" class="bi bi-phone-vibrate text-dark" viewBox="0 0 16 16">
+                  <path d="M10 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6z"/>
+                  <path d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM1.599 4.058a.5.5 0 0 1 .208.676A6.967 6.967 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A7.968 7.968 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208zm12.802 0a.5.5 0 0 1 .676.208A7.967 7.967 0 0 1 16 8a7.967 7.967 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A6.967 6.967 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676zM3.057 5.534a.5.5 0 0 1 .284.648A4.986 4.986 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A5.986 5.986 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284zm9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8c0 .769-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8c0-.642-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648z"/>
+                </svg>
+              </a>
+            </div>
+            <div class="shopping__cart__mobile col-xl-1 col-lg-2 col-md-1 col-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38"  class="shoppincart__svg" viewBox="0 0 16 16">
+                <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z"/>
+                <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"/>
+              </svg>
+              <span class="shoping__card__counter__mobile">0</span>
+            </div>
+            <div class="form__wrapper col-xxl-5 col-xl-4 col-lg-6 col-md-5 col-12 ">
+              <form method="post"  action="action_page.php" class="form__search" >
+                <input type="search" type="text"  placeholder="поиск запчастей..." class="input__search col-xxl-8 col-xl-10 col-lg-10 col-md-11 col-10" name="search">
+                <button type="submit" class="btn__search  col-xl-2 col-md-2 col-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search search__icon" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </button>
+              </form>
+            </div>
+            <div class="header__top__phone col-xxl-2 col-xl-3 col-lg-3 col-md-2 col-2  text-center">
+              <p class="number__phone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="phone__icon bi bi-telephone-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg> (066)6-228-355
+              </p>
+              <span class="header__phone__subtittle">Заказы через сайт 24/7</span>
+            </div>
+            <div class="user__desctop col-xl-1 col-lg-1 col-md-2 col-2  text-center">
+              <img src="img/user__icon.svg" width="46px" height="46px"></img>
+            </div>
+            <div class="shopping__cart__desctop col-xl-1 col-lg-2 col-md-1 col-2 text-center p-2" tabindex="0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" class="shoppincart__svg bi bi-basket2" viewBox="0 0 16 16">
+                <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z"/>
+                <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"/>
+              </svg>
+              <span class="shoping__card__counter" >0</span>
+              <div class="cart__content__wrapp">
+                <div class="cart__content">
+                  <h3 class="cart__tittle">Корзина покупок</h3>
+                  <ul class="buy__list wow fadeInLeft" data-wow-duration="0.2s">
+                  </ul>
+                  <button class="btn  btn__buy wow pulse" data-wow-iteration="1000">Оформить заказ</button>
+              </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </article>
-    <!-- карточка товара -->
-    <section class="product__card__wrap">
-      <div class="container">
-          <ul class="row">
-            <li class="product__card col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-2" data-id="01">
-              <a class="woocomerce__loop__product__link" href="##">
-                <img class="product__image w-100" src="img/1.jpg" alt="">
+      <div class="header__bottom text-center align-center">
+        <div class="container">
+          <div class="row">
+            <div class="btn__wrapper col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-12">
+                <button  class="btn btn__open__catalog  p-2 d-flex" id="btn__modal">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-filter-left" viewBox="0 0 16 16">
+                    <path d="M2 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+                  <div class="catalog__tittle d-flex text-center m-auto">КАТАЛОГ ТОВАРОВ</div>
+                </button>
+            </div>
+            <ul class="list col-xl-7 col-lg-8 col-md-6">
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Доставка
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Возврат и Обмен
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Акции и Кешбек
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+            <div class="header__reviews col-xl-2 col-lg-1 col-md-2 p-0">
+              <li class="nav__item">
+                <a class="nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-chat-dots-fill header__bottom__nav__icon" viewBox="0 0 16 16">
+                    <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                  </svg>Отзывы 
+                </a>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="contant">
+      <div class="contant__bg mb-2">
+        <div class="container">
+          <div class="contant__mobile__bg">
+            <img src="img/mobile__bg.png" alt="">
+          </div>
+          <div class="row left__menu ">
+            <ul class="contant__menu__list col-12 col-md-4 col-lg-3 col-xl-3">
+              <li class="list__menu__subitem">
+                <a href="" class="list__menu__sublink  fa-motorcycle">
+                  Мотозапчасти
+                </a>
+              </li>
+              <li class="list__menu__subitem">
+                <a href="#" class="list__menu__sublink fa-solid fa-star">
+                  Аксессуары и тюнинг
+                </a>
+              </li>
+              <li class="list__menu__subitem">
+                <a href="#" class="list__menu__sublink fa-solid fa-star">
+                  Колеса и резина</a>
+              </li>
+              <li class="list__menu__subitem">
+                <a href="#" class="list__menu__sublink fa-solid fa-star">
+                  Масла и химия</a>
+              </li>
+              <li class="list__menu__subitem">
+                <a href="#" class="list__menu__sublink fa-solid fa-star">
+                  Мотоэкипировка</a>
+              </li>
+              <li class="list__menu__subitem">
+                <a href="#" class="list__menu__sublink fa-regular fa-bicycle">
+                  Велозапчасти</a>
+              </li>
+              <li class="list__menu__subitem">
+                <a href="" class="list__menu__sublink fa-solid fa-star">
+                  Запчасти для бензоинструмента</a>
+              </li>
+              <li class="list__menu__subitem">
+                <a href="" class="list__menu__sublink fa-solid fa-star">
+                  Запчасти для газонокосилок</a>
+              </li>
+            </ul>
+            <div class="main__tittle col-xxl-4 col-xl-4 col-lg-4 col-md-3 pt-5 mb-5 text-center">
+              <h1 class=" wow fadeInLeft mb-4" data-wow-delay="0.5s">Запчасти на скутер мопед, мотоцикл. </h1>
+              <p class="main__subtittle  wow fadeInUp mb-5" data-wow-delay="1s">Интернет магазин №1 в Украине!</p>
+              <button class="main__consultation btn btn-warning p-2 wow fadeInUp " id="consultation" data-wow-delay="1.3s">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
+            </div>
+            <div class="moto__animate col-xxl-5 col-xl-5 col-lg-5 col-md-5 d-flex justify-content-end h-100 p-0">
+              <img class="moto__animate__image col-xxl-12 col-xl-12 col-lg-12 col-md-12" src="img/moto__element.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="section__cards ">
+        <div class="container">
+          <h2 class="select__modal__tittle text-center ">Выберите запчасть по модели:</h2>
+          <div class="main__first__model__cards row">
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/alpha.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Alpha</span>
               </a>
-              <div class="woocomerce__loop__product__tittle">АКБ 12V 14А кислотный высокотоковый</div>
-              <div class="rating">
-                <span class="text-dark">Рейтинг:</span>
-                <div class="rating__simbol">
-                  <label for="">✰</label>
-                  <input class="input__rating" type="radio" id="1" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="2" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="3" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="4" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="4" name="rating">
-                </div>
-              </div>
-              <div class="amount">
-                <span class="amount__discription">Кол-во</span>
-                <div class="amount__btn__group">
-                  <button type="button" class="minus" data-action="minus">-</button>
-                  <output class="result" data-counter>0</output>
-                  <button type="button" class="plus" data-action="plus">+</button>
-                </div>
-              </div>
-              <button type="button" class="fast__buy__button w-100">Быстрая покупка</button>
-              <a class="add__to__card__link" href="##">
-                <span class="price__wrapp">
-                  <p class="price">555 грн</p>
-                </span>
-                <button data-cart type="button" class="btn__add__to__card" ><i class="fa-solid fa-cart-plus"></i>Купить</button>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/atv.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Delta</span>
               </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/delta.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Delta</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/gy6.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">GY6</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/honda.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Honda</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/irbis.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Irbis</span>
+              </a>
+            </div>
+            <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/kawassaki.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">kawassaki</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/kinlon.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Kinlon</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/ktv.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">KTM</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/lifan.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">lifan</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/loncin.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Loncin</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/musstang.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">mustang</span>
+              </a>
+            </div>
+          </div>
+          <div id="main__show__btn__wrapp" class="main__show__btn__wrapp">
+            <button id="btn__other__models" class="btn__show__other__models wow pulse"  data-wow-iteration="100">Выбрать другую модель</button>
+          </div>
+          <div id="show__models" class="main__show__other__models row">
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/alpha.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Alpha</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/atv.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Delta</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/delta.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Delta</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/gy6.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">GY6</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/honda.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Honda</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/irbis.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Irbis</span>
+              </a>
+            </div>
+            <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/kawassaki.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">kawassaki</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/kinlon.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Kinlon</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/ktv.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">KTM</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/lifan.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">lifan</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/loncin.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">Loncin</span>
+              </a>
+            </div>
+            <div class="nav__cards col-4 col-sm-3 col-md-2">
+              <a class="nav__cards__link" href="#">
+                <img src="./img/musstang.webp" class="nav__cards__inner__image" alt="...">
+                <span href="" class="nav__cards__tittle">mustang</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pop__category text-center mb-5">
+        <h2 class="pop__category__tittle">Популярные категории</h2>
+        <div class="container">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Мотозапчасти</button>
             </li>
-            <li class="product__card col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-2" data-id="02">
-              <a class="woocomerce__loop__product__link" href="##">
-                <img class="product__image w-100" src="img/2.jpg" alt="">
-              </a>
-              <div class="woocomerce__loop__product__tittle">Поршень Honda DIO 65 .STD (Ø44,00) MSU </div>
-              <div class="rating">
-                <span class="text-dark">Рейтинг:</span>
-                <div class="rating__simbol">
-                  <label for="">✰</label>
-                  <input class="input__rating" type="radio" id="1" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="2" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="3" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="4" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="4" name="rating">
-                </div>
-              </div>
-              <div class="amount">
-                <span class="amount__discription">Кол-во</span>
-                <div class="amount__btn__group">
-                  <button type="button" class="minus" data-action="minus">-</button>
-                  <output class="result" data-counter>0</output>
-                  <button type="button" class="minus" data-action="plus">+</button>
-                </div>
-              </div>
-              <button type="button" class="fast__buy__button w-100">Быстрая покупка</button>
-              <a class="add__to__card__link" href="##">
-                <span class="price__wrapp">
-                  <p class="price">1323 грн</p>
-                </span>
-                <button data-cart type="button" class="btn__add__to__card" ><i class="fa-solid fa-cart-plus"></i>Купить</button>
-              </a>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Аксессуары и тюнинг</button>
             </li>
-            <li class="product__card col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-2" data-id="03">
-              <a class="woocomerce__loop__product__link" href="##">
-                <img class="product__image w-100" src="img/3.jpg" alt="">
-              </a>
-              <div class="woocomerce__loop__product__tittle">Поршень Honda DIO 65 .STD (Ø44,00) MSU </div>
-              <span class="price bg-dark d-flex justify-content-center">
-              </span>
-              <div class="rating">
-                <span class="text-dark">Рейтинг:</span>
-                <div class="rating__simbol">
-                  <label for="">✰</label>
-                  <input class="input__rating" type="radio" id="1" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="2" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="3" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="4" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="4" name="rating">
-                </div>
-              </div>
-              <div class="amount">
-                <span class="amount__discription">Кол-во</span>
-                <div class="amount__btn__group">
-                  <button type="button" class="minus" data-action="minus">-</button>
-                  <output class="result" data-counter>0</output>
-                  <button type="button" class="plus" data-action="plus">+</button>
-                </div>
-              </div>
-              <button type="button" class="fast__buy__button w-100">Быстрая покупка</button>
-              <a class="add__to__card__link" href="##">
-                <span class="price__wrapp">
-                  <p class="price">1212 грн</p>
-                </span>
-                <button data-cart type="button" class="btn__add__to__card" ><i class="fa-solid fa-cart-plus"></i>Купить</button>
-              </a>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Колеса и резина</button>
             </li>
-            <li class="product__card col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-2" data-id="04">
-              <a class="woocomerce__loop__product__link" href="##">
-                <img class="product__image w-100" src="img/4.jpg" alt="">
-              </a>
-              <div class="woocomerce__loop__product__tittle">Поршень Honda DIO 65 .STD (Ø44,00) MSU </div>
-              <div class="rating">
-                <span class="text-dark">Рейтинг:</span>
-                <div class="rating__simbol">
-                  <label for="">✰</label>
-                  <input class="input__rating" type="radio" id="1" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="2" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="3" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="4" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="4" name="rating">
-                </div>
-              </div>
-              <div class="amount">
-                <span class="amount__discription">Кол-во</span>
-                <div class="amount__btn__group">
-                  <button type="button" class="minus" data-action="minus">-</button>
-                  <output class="result" data-counter>0</output>
-                  <button type="button" class="plus" data-action="plus">+</button>
-                </div>
-              </div>
-              <button type="button" class="fast__buy__button w-100">Быстрая покупка</button>
-              <a class="add__to__card__link" href="##">
-                <span class="price__wrapp">
-                  <p class="price">344 грн</p>
-                </span>
-                <button data-cart type="button" class="btn__add__to__card" ><i class="fa-solid fa-cart-plus"></i>Купить</button>
-              </a>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Масла и Химия</button>
             </li>
-            <li class="product__card col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-2" data-id="05">
-              <a class="woocomerce__loop__product__link" href="##">
-                <img class="product__image w-100" src="img/5.jpg" alt="">
-              </a>
-              <div class="woocomerce__loop__product__tittle">Поршень Honda DIO 65 .STD (Ø44,00) MSU </div>
-              </span>
-              <div class="rating">
-                <span class="text-dark">Рейтинг:</span>
-                <div class="rating__simbol">
-                  <label for="">✰</label>
-                  <input class="input__rating" type="radio" id="1" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="2" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="3" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="4" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="4" name="rating">
-                </div>
-              </div>
-              <div class="amount">
-                <span class="amount__discription">Кол-во</span>
-                <div class="amount__btn__group">
-                  <button type="button" class="minus" data-action="minus">-</button>
-                  <output class="result" data-counter>0</output>
-                  <button type="button" class="plus" data-action="plus">+</button>
-                </div>
-              </div>
-              <button type="button" class="fast__buy__button w-100">Быстрая покупка</button>
-              <a class="add__to__card__link" href="##">
-                <span class="price__wrapp">
-                  <p class="price">949 грн</p>
-                </span>
-                <button data-cart type="button" class="btn__add__to__card" ><i class="fa-solid fa-cart-plus"></i>Купить</button>
-              </a>
-            </li>
-            <li class="product__card col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-2" data-id="06">
-              <a class="woocomerce__loop__product__link" href="##">
-                <img class="product__image w-100" src="img/6.jpg" alt="">
-              </a>
-              <div class="woocomerce__loop__product__tittle">Поршень Honda DIO 65 .STD (Ø44,00) MSU </div>
-              <div class="rating">
-                <span class="text-dark">Рейтинг:</span>
-                <div class="rating__simbol">
-                  <label for="">✰</label>
-                  <input class="input__rating" type="radio" id="1" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="2" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="3" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="4" name="rating">
-                  <label for="" type="radio">✰</label>
-                  <input class="input__rating" type="radio" id="4" name="rating">
-                </div>
-              </div>
-              <div class="amount">
-                <span class="amount__discription">Кол-во</span>
-                <div class="amount__btn__group">
-                  <button type="button" class="minus" data-action="minus">-</button>
-                  <output class="result" data-counter>0</output>
-                  <button type="button" class="plus" data-action="plus">+</button>
-                </div>
-              </div>
-              <button type="button" class="fast__buy__button w-100">Быстрая покупка</button>
-              <a class="add__to__card__link" href="##">
-                <span class="price__wrapp">
-                  <p class="price">24453 грн</p>
-                </span>
-                <button data-cart type="button" class="btn__add__to__card" ><i class="fa-solid fa-cart-plus"></i>Купить</button>
-              </a>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Мотоэкипировка</button>
             </li>
           </ul>
-      </div>
-    </section>
-  </main>
+          <!-- Тыбы категорий -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="row">
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/image_385.webp" alt="">
+                    <p class="category__name">Запчасти для двигателя</p>
+                  </span>
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/image_386.webp" alt="">
+                    <p class="category__name">Поршни</p>
+                  </span>
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/image_387.webp" alt="">
+                    <p class="category__name">Поршневые кольца</p>
+                  </span>
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/image_388.webp" alt="">
+                    <p class="category__name">Поршневые и цпг</p>
+                  </span>
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/image_18.webp" alt="">
+                    <p class="category__name">Электрика</p>
+                  </span>
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/image_6.webp" alt="">
+                    <p class="category__name">Лампы и свет</p>
+                  </span>
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/10.webp" alt="">
+                    <p class="category__name">Вариаторы и редукторы</p>
+                  </span>
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/11.webp" alt="">
+                    <p class="category__name">Фильтры</p>
+                  </span>
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/image_6.webp" alt="">
+                    <p class="category__name">Пластик навесной и крылья</p>
+                  </span>
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/12.webp" alt="">
+                    <p class="category__name">Карбюраторы</p>
+                  </span>
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/13.webp" alt="">
+                    <p class="category__name">Амортизаторы и подвеска</p>
+                  </span>
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/14.webp" alt="">
+                    <p class="category__name">Руль и управление</p>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="row d-flex">
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/image_385.webp" alt="">
+                    <p class="category__name">Руль и управление</p>
+                  </span>
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/image_386.webp" alt="">
+                    <p class="category__name">Руль и управление</p>
+                  </span>Поршни
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/image_387.webp" alt="">
+                    <p class="category__name">Руль и управление</p>
+                  </span>Поршневые кольца
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/image_388.webp" alt="">
+                    <p class="category__name">Руль и управление</p>
+                  </span>Поршневые и цпг
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/image_18.webp" alt="">
+                    <p class="category__name">Руль и управление</p>
+                  </span>Электрика
+                </a>
+                <a class="tab__catgory__link col-6 col-sm-4 col-md-3 col-lg-2" href="">
+                  <span class="card__category">
+                    <img class="tab__image w-100" src="img/image_6.webp" alt="">
+                    <p class="category__name">Руль и управление</p>
+                  </span>Лампы и свет
+                </a>
+              </div>
+            </div>
+            <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
+            <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
+          </div>
+        </div>
+      </section>
+      <article>
+        <div class="container">
+          <div class="news__contant">
+            <h2 class="news__contant__tittle text-center">Новостной блог</h2>
+            <div class="row">
+              <ul class="news__list">
+                <li class="news__card col-xxl-3">
+                  <img class="news__image" src="img/blog__image_2.webp" alt="">
+                  <p class="news__content__text">
+                    В мотоцикле важен баланс. В конструкции все продумано, кроме человеческого фактора – то, как ты сидишь влияет на нагрузку на подвеску. Вот и первый совет – садись поближе к баку – так ты смещаешь центр тяжести, разгружая заднюю подвеску.
+                  </p>
+                </li>
+                <li class="news__card col-xxl-3">
+                  <img class="news__image" src="img/blog_image_3.webp" alt="">
+                  <p class="news__content__subtittle">
+                    В мотоцикле важен баланс. В конструкции все продумано, кроме человеческого фактора – то, как ты сидишь влияет на нагрузку на подвеску. Вот и первый совет – садись поближе к баку – так ты смещаешь центр тяжести, разгружая заднюю подвеску. 
+                  </p>
+                </li>
+                <li class="news__card col-xxl-3">
+                  <img class="news__image" src="img/blog_image_4.webp" alt="">
+                  <p class="news__content__subtittle">
+                    В мотоцикле важен баланс. В конструкции все продумано, кроме человеческого фактора – то, как ты сидишь влияет на нагрузку на подвеску. Вот и первый совет – садись поближе к баку – так ты смещаешь центр тяжести, разгружая заднюю подвеску. 
+                  </p>
+                </li>
+                <li class="news__card col-xxl-3">
+                  <img class="news__image" src="img/blog_image_5.webp" alt="">
+                  <p class="news__content__subtittle">
+                    В мотоцикле важен баланс. В конструкции все продумано, кроме человеческого фактора – то, как ты сидишь влияет на нагрузку на подвеску. Вот и первый совет – садись поближе к баку – так ты смещаешь центр тяжести, разгружая заднюю подвеску.
+                  </p>
+                </li>
+              </ul>
+              <div class="see__more__news__wrapp">
+                <button class="btn  btn__see__more__news">Смотреть все новости</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- карточка товара -->
+      <section class="product__card__wrap">
+        <div class="container">
+            <ul class="product__card__list row">
+              <li class="product__card col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-2" data-id="01">
+                <a class="woocomerce__loop__product__link" href="##">
+                  <img class="product__image w-100" src="img/1.jpg" alt="">
+                </a>
+                <div class="woocomerce__loop__product__tittle">АКБ 12V 14А кислотный высокотоковый</div>
+                <div class="rating">
+                  <span class="text-dark">Рейтинг:</span>
+                  <div class="rating__simbol">
+                    <label for="">✰</label>
+                    <input class="input__rating" type="radio" id="1" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="2" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="3" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="4" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="4" name="rating">
+                  </div>
+                </div>
+                <div class="amount">
+                  <span class="amount__discription">Кол-во</span>
+                  <div class="amount__btn__group">
+                    <button type="button" class="minus" data-action="minus">-</button>
+                    <output class="result" data-counter>0</output>
+                    <button type="button" class="plus" data-action="plus">+</button>
+                  </div>
+                </div>
+                <button type="button" class="fast__buy__button w-100">Быстрая покупка</button>
+                <a class="add__to__card__link" href="##">
+                  <span class="price__wrapp">
+                    <p class="price">555 грн</p>
+                  </span>
+                  <button data-cart type="button" class="btn__add__to__card" ><i class="fa-solid fa-cart-plus"></i>Купить</button>
+                </a>
+              </li>
+              <li class="product__card col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-2" data-id="02">
+                <a class="woocomerce__loop__product__link" href="##">
+                  <img class="product__image w-100" src="img/2.jpg" alt="">
+                </a>
+                <div class="woocomerce__loop__product__tittle">Поршень Honda DIO 65 .STD (Ø44,00) MSU </div>
+                <div class="rating">
+                  <span class="text-dark">Рейтинг:</span>
+                  <div class="rating__simbol">
+                    <label for="">✰</label>
+                    <input class="input__rating" type="radio" id="1" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="2" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="3" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="4" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="4" name="rating">
+                  </div>
+                </div>
+                <div class="amount">
+                  <span class="amount__discription">Кол-во</span>
+                  <div class="amount__btn__group">
+                    <button type="button" class="minus" data-action="minus">-</button>
+                    <output class="result" data-counter>0</output>
+                    <button type="button" class="minus" data-action="plus">+</button>
+                  </div>
+                </div>
+                <button type="button" class="fast__buy__button w-100">Быстрая покупка</button>
+                <a class="add__to__card__link" href="##">
+                  <span class="price__wrapp">
+                    <p class="price">1323 грн</p>
+                  </span>
+                  <button data-cart type="button" class="btn__add__to__card" ><i class="fa-solid fa-cart-plus"></i>Купить</button>
+                </a>
+              </li>
+              <li class="product__card col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-2" data-id="03">
+                <a class="woocomerce__loop__product__link" href="##">
+                  <img class="product__image w-100" src="img/3.jpg" alt="">
+                </a>
+                <div class="woocomerce__loop__product__tittle">Поршень Honda DIO 65 .STD (Ø44,00) MSU </div>
+                <span class="price bg-dark d-flex justify-content-center">
+                </span>
+                <div class="rating">
+                  <span class="text-dark">Рейтинг:</span>
+                  <div class="rating__simbol">
+                    <label for="">✰</label>
+                    <input class="input__rating" type="radio" id="1" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="2" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="3" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="4" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="4" name="rating">
+                  </div>
+                </div>
+                <div class="amount">
+                  <span class="amount__discription">Кол-во</span>
+                  <div class="amount__btn__group">
+                    <button type="button" class="minus" data-action="minus">-</button>
+                    <output class="result" data-counter>0</output>
+                    <button type="button" class="plus" data-action="plus">+</button>
+                  </div>
+                </div>
+                <button type="button" class="fast__buy__button w-100">Быстрая покупка</button>
+                <a class="add__to__card__link" href="##">
+                  <span class="price__wrapp">
+                    <p class="price">1212 грн</p>
+                  </span>
+                  <button data-cart type="button" class="btn__add__to__card" ><i class="fa-solid fa-cart-plus"></i>Купить</button>
+                </a>
+              </li>
+              <li class="product__card col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-2" data-id="04">
+                <a class="woocomerce__loop__product__link" href="##">
+                  <img class="product__image w-100" src="img/4.jpg" alt="">
+                </a>
+                <div class="woocomerce__loop__product__tittle">Поршень Honda DIO 65 .STD (Ø44,00) MSU </div>
+                <div class="rating">
+                  <span class="text-dark">Рейтинг:</span>
+                  <div class="rating__simbol">
+                    <label for="">✰</label>
+                    <input class="input__rating" type="radio" id="1" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="2" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="3" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="4" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="4" name="rating">
+                  </div>
+                </div>
+                <div class="amount">
+                  <span class="amount__discription">Кол-во</span>
+                  <div class="amount__btn__group">
+                    <button type="button" class="minus" data-action="minus">-</button>
+                    <output class="result" data-counter>0</output>
+                    <button type="button" class="plus" data-action="plus">+</button>
+                  </div>
+                </div>
+                <button type="button" class="fast__buy__button w-100">Быстрая покупка</button>
+                <a class="add__to__card__link" href="##">
+                  <span class="price__wrapp">
+                    <p class="price">344 грн</p>
+                  </span>
+                  <button data-cart type="button" class="btn__add__to__card" ><i class="fa-solid fa-cart-plus"></i>Купить</button>
+                </a>
+              </li>
+              <li class="product__card col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-2" data-id="05">
+                <a class="woocomerce__loop__product__link" href="##">
+                  <img class="product__image w-100" src="img/5.jpg" alt="">
+                </a>
+                <div class="woocomerce__loop__product__tittle">Поршень Honda DIO 65 .STD (Ø44,00) MSU </div>
+                </span>
+                <div class="rating">
+                  <span class="text-dark">Рейтинг:</span>
+                  <div class="rating__simbol">
+                    <label for="">✰</label>
+                    <input class="input__rating" type="radio" id="1" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="2" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="3" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="4" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="4" name="rating">
+                  </div>
+                </div>
+                <div class="amount">
+                  <span class="amount__discription">Кол-во</span>
+                  <div class="amount__btn__group">
+                    <button type="button" class="minus" data-action="minus">-</button>
+                    <output class="result" data-counter>0</output>
+                    <button type="button" class="plus" data-action="plus">+</button>
+                  </div>
+                </div>
+                <button type="button" class="fast__buy__button w-100">Быстрая покупка</button>
+                <a class="add__to__card__link" href="##">
+                  <span class="price__wrapp">
+                    <p class="price">949 грн</p>
+                  </span>
+                  <button data-cart type="button" class="btn__add__to__card" ><i class="fa-solid fa-cart-plus"></i>Купить</button>
+                </a>
+              </li>
+              <li class="product__card col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-2" data-id="06">
+                <a class="woocomerce__loop__product__link" href="##">
+                  <img class="product__image w-100" src="img/6.jpg" alt="">
+                </a>
+                <div class="woocomerce__loop__product__tittle">Поршень Honda DIO 65 .STD (Ø44,00) MSU </div>
+                <div class="rating">
+                  <span class="text-dark">Рейтинг:</span>
+                  <div class="rating__simbol">
+                    <label for="">✰</label>
+                    <input class="input__rating" type="radio" id="1" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="2" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="3" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="4" name="rating">
+                    <label for="" type="radio">✰</label>
+                    <input class="input__rating" type="radio" id="4" name="rating">
+                  </div>
+                </div>
+                <div class="amount">
+                  <span class="amount__discription">Кол-во</span>
+                  <div class="amount__btn__group">
+                    <button type="button" class="minus" data-action="minus">-</button>
+                    <output class="result" data-counter>0</output>
+                    <button type="button" class="plus" data-action="plus">+</button>
+                  </div>
+                </div>
+                <button type="button" class="fast__buy__button w-100">Быстрая покупка</button>
+                <a class="add__to__card__link" href="##">
+                  <span class="price__wrapp">
+                    <p class="price">24453 грн</p>
+                  </span>
+                  <button data-cart type="button" class="btn__add__to__card" ><i class="fa-solid fa-cart-plus"></i>Купить</button>
+                </a>
+              </li>
+            </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+  <footer class="footer bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Подпишитесь на новости:</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control"  placeholder="Введите ваш Email"/>
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Подписаться
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+          eum harum corrupti dicta, aliquam sequi voluptate quas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">О нас</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Акции</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Кешбек</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Предложения</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Адрес</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Время работы</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Вакансии</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
   <!-- Footer -->
-<footer class="footer bg-dark text-center text-white">
-  <!-- Grid container -->
-  <div class="container p-4">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
+  <script src="js/Other__models.js"></script>
 
-      <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-        <i class="fab fa-instagram"></i>
-      </a>
-
-      <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-
-    <!-- Section: Form -->
-    <section class="">
-      <form action="">
-        <!--Grid row-->
-        <div class="row d-flex justify-content-center">
-          <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Подпишитесь на новости:</strong>
-            </p>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-5 col-12">
-            <!-- Email input -->
-            <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example21" class="form-control"  placeholder="Введите ваш Email"/>
-              <label class="form-label" for="form5Example21">Email address</label>
-            </div>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-auto">
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-outline-light mb-4">
-              Подписаться
-            </button>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </form>
-    </section>
-    <!-- Section: Form -->
-
-    <!-- Section: Text -->
-    <section class="mb-4">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
-      </p>
-    </section>
-    <!-- Section: Text -->
-
-    <!-- Section: Links -->
-    <section class="">
-      <!--Grid row-->
-      <div class="row">
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">О нас</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Акции</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Кешбек</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Предложения</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Адрес</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Время работы</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Вакансии</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-      </div>
-      <!--Grid row-->
-    </section>
-    <!-- Section: Links -->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-
-<!-- Footer -->
-<script src="js/Other__models.js"></script>
-
-<script src="js/modal.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-<script src="js/mouseHover.js"></script>
-<script src="js/wow.min.js"></script>
- <script>
-    new WOW().init();
- </script>
- 
- <script src="js/add__to__cart.js"></script>
- <script src="js/card_counter.js"></script>
-</body>
-</html>
+  <script src="js/modal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="js/mouseHover.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+      new WOW().init();
+  </script>
+  
+  <script src="js/add__to__cart.js"></script>
+  <script src="js/card_counter.js"></script>
+  </body>
+  </html>

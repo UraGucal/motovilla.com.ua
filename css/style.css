@@ -552,16 +552,16 @@ body .contant article .container .news__contant .row .see__more__news__wrapp .bt
   background-color: #78e39d;
 }
 
-body .contant .product__card__wrap .container .row {
+body .contant .product__card__wrap .container .product__card__list {
   list-style: none;
   padding: 0;
 }
 
-body .contant .product__card__wrap .container .row .product__card {
+body .contant .product__card__wrap .container .product__card__list .product__card {
   padding: 10px 6px;
 }
 
-body .contant .product__card__wrap .container .row .product__card:hover {
+body .contant .product__card__wrap .container .product__card__list .product__card:hover {
   opacity: 0.9;
   cursor: pointer;
   -webkit-box-shadow: 1px 3px 16px #7b7a7a;
@@ -569,11 +569,11 @@ body .contant .product__card__wrap .container .row .product__card:hover {
   border-radius: 4px;
 }
 
-body .contant .product__card__wrap .container .row .product__card .woocomerce__loop__product__link {
+body .contant .product__card__wrap .container .product__card__list .product__card .woocomerce__loop__product__link {
   overflow: hidden;
 }
 
-body .contant .product__card__wrap .container .row .product__card .woocomerce__loop__product__link .product__image {
+body .contant .product__card__wrap .container .product__card__list .product__card .woocomerce__loop__product__link .product__image {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -581,7 +581,7 @@ body .contant .product__card__wrap .container .row .product__card .woocomerce__l
   border-radius: 4px;
 }
 
-body .contant .product__card__wrap .container .row .product__card .woocomerce__loop__product__tittle {
+body .contant .product__card__wrap .container .product__card__list .product__card .woocomerce__loop__product__tittle {
   text-indent: 1.2rem;
   margin: 4px 0px 4px 0px;
   overflow: hidden;
@@ -595,7 +595,7 @@ body .contant .product__card__wrap .container .row .product__card .woocomerce__l
           align-items: center;
 }
 
-body .contant .product__card__wrap .container .row .product__card .rating {
+body .contant .product__card__wrap .container .product__card__list .product__card .rating {
   text-align: right;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -607,28 +607,28 @@ body .contant .product__card__wrap .container .row .product__card .rating {
           align-items: center;
 }
 
-body .contant .product__card__wrap .container .row .product__card .rating label {
+body .contant .product__card__wrap .container .product__card__list .product__card .rating label {
   font-size: 26px;
   cursor: pointer;
   color: #e9a214;
   position: relative;
 }
 
-body .contant .product__card__wrap .container .row .product__card .rating label:hover::before {
+body .contant .product__card__wrap .container .product__card__list .product__card .rating label:hover::before {
   opacity: 1;
 }
 
-body .contant .product__card__wrap .container .row .product__card .rating label::before {
+body .contant .product__card__wrap .container .product__card__list .product__card .rating label::before {
   content: '★';
   position: absolute;
   opacity: 0;
 }
 
-body .contant .product__card__wrap .container .row .product__card .rating .input__rating {
+body .contant .product__card__wrap .container .product__card__list .product__card .rating .input__rating {
   display: none;
 }
 
-body .contant .product__card__wrap .container .row .product__card .amount {
+body .contant .product__card__wrap .container .product__card__list .product__card .amount {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -640,7 +640,7 @@ body .contant .product__card__wrap .container .row .product__card .amount {
   margin-bottom: 12px;
 }
 
-body .contant .product__card__wrap .container .row .product__card .amount .amount__btn__group {
+body .contant .product__card__wrap .container .product__card__list .product__card .amount .amount__btn__group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -649,7 +649,7 @@ body .contant .product__card__wrap .container .row .product__card .amount .amoun
           justify-content: flex-end;
 }
 
-body .contant .product__card__wrap .container .row .product__card .amount .amount__btn__group .plus {
+body .contant .product__card__wrap .container .product__card__list .product__card .amount .amount__btn__group .plus {
   border: none;
   margin: 6px;
   width: 30px;
@@ -660,15 +660,15 @@ body .contant .product__card__wrap .container .row .product__card .amount .amoun
   background-color: #e6f6a5;
 }
 
-body .contant .product__card__wrap .container .row .product__card .amount .amount__btn__group .plus:active {
+body .contant .product__card__wrap .container .product__card__list .product__card .amount .amount__btn__group .plus:active {
   background-color: #ab2424;
 }
 
-body .contant .product__card__wrap .container .row .product__card .amount .amount__btn__group .result {
+body .contant .product__card__wrap .container .product__card__list .product__card .amount .amount__btn__group .result {
   margin: 10px 6px 6px 6px;
 }
 
-body .contant .product__card__wrap .container .row .product__card .amount .amount__btn__group .minus {
+body .contant .product__card__wrap .container .product__card__list .product__card .amount .amount__btn__group .minus {
   background-color: #e6f6a5;
   border: none;
   width: 30px;
@@ -679,23 +679,23 @@ body .contant .product__card__wrap .container .row .product__card .amount .amoun
   margin: 6px;
 }
 
-body .contant .product__card__wrap .container .row .product__card .amount .amount__btn__group .minus:active {
+body .contant .product__card__wrap .container .product__card__list .product__card .amount .amount__btn__group .minus:active {
   background-color: #ab2424;
 }
 
-body .contant .product__card__wrap .container .row .product__card .fast__buy__button {
+body .contant .product__card__wrap .container .product__card__list .product__card .fast__buy__button {
   margin-bottom: 10px;
   color: #000000;
   border: none;
   border-radius: 3px;
 }
 
-body .contant .product__card__wrap .container .row .product__card .fast__buy__button:hover {
+body .contant .product__card__wrap .container .product__card__list .product__card .fast__buy__button:hover {
   background-color: #9d9d9d;
   color: white;
 }
 
-body .contant .product__card__wrap .container .row .product__card .add__to__card__link .price__wrapp .price {
+body .contant .product__card__wrap .container .product__card__list .product__card .add__to__card__link .price__wrapp .price {
   margin: 0 auto;
   font-size: 19px;
   font-weight: 500;

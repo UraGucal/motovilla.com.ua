@@ -509,7 +509,7 @@ body{
         }
         .product__card__wrap{
             .container{
-                .row{
+                .product__card__list{
                     list-style: none;
                     padding: 0;
                     .product__card{
@@ -571,7 +571,7 @@ body{
                             justify-content: space-around;
                             margin-bottom: 12px;
                             .amount__btn__group{
-                                display:flex;
+                                display: flex;
                                 justify-content: flex-end;
                                 .plus{
                                     border: none;
