@@ -1,10 +1,47 @@
-.ModalSuccessfulAddition{
+.add__card__overlay__wrap{
+    display: flex;
+    width: 100%;
+    height: 100%;
     position: fixed;
-    z-index: 400;
-    width: 400px;
-    height: 300px;
-    background: rgb(218, 246, 242);
+    left: 0; top: 0; right: 0; bottom: 0;
+    justify-content: center;
     align-items: center;
-    top: -40vh;
-    margin: 0 auto;
+    z-index: 80;
+    display: flex;
+    display: none;
+    .add__card__overlay{
+        background-color: #000;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        opacity: 0.75;
+    }
+    .modal__card__overlay__content{
+        display: block;
+        width: 500px;
+        height: 200px;
+        background: rgb(240, 234, 234);
+        text-align: center;
+        z-index: 100;
+        border-radius: 10px;
+        h3{
+            margin-bottom: 100px;
+        }
+        .btn__modal__addCard__wrap{
+            display: flex;
+            justify-content: space-evenly;
+            .btn__continue__shoping{
+
+            }
+            .btn__checkout{
+                padding: 10px;
+            }
+        }
+    }
 }
+
+
+
+
