@@ -4,6 +4,11 @@ window.addEventListener('click', function(event){
       const add__card__overlay__wrap = document.querySelector('.add__card__overlay__wrap');
       add__card__overlay__wrap.style.display = 'flex';
       body.style.overflow = 'hidden';
+      const continue__btn = document.getElementById('continue__btn');
+      continue__btn.onclick = () => {
+        add__card__overlay__wrap.style.display = 'none';
+        body.style.overflow = 'visible';
+      }
         const cardParent = event.target.closest('.product__card'); //Находим родителя кнопки по которой
         const productInfo = {   //собираем все в обьект
               id: cardParent.dataset.id,

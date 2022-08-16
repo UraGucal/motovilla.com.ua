@@ -93,7 +93,7 @@ body{
                             position: absolute;
                             top: 50px;
                             display: none;
-                            height: 70vh;
+                            height: inherit;
                             overflow: hidden;
                             box-shadow: 1px 1px 2px 3px rgb(195, 193, 193);
                             border-radius: 2px;
@@ -532,7 +532,6 @@ body{
                             }
                         }
                         .woocomerce__loop__product__tittle{
-                            text-indent: 1.2rem;
                             margin: 4px 0px 4px 0px;
                             overflow: hidden;
                             font-size: 14px;

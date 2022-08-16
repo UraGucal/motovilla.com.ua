@@ -100,7 +100,7 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
   position: absolute;
   top: 50px;
   display: none;
-  height: 70vh;
+  height: inherit;
   overflow: hidden;
   -webkit-box-shadow: 1px 1px 2px 3px #c3c1c1;
           box-shadow: 1px 1px 2px 3px #c3c1c1;
@@ -582,7 +582,6 @@ body .contant .product__card__wrap .container .product__card__list .product__car
 }
 
 body .contant .product__card__wrap .container .product__card__list .product__card .woocomerce__loop__product__tittle {
-  text-indent: 1.2rem;
   margin: 4px 0px 4px 0px;
   overflow: hidden;
   font-size: 14px;

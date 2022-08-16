@@ -16,7 +16,6 @@
       -ms-flex-align: center;
           align-items: center;
   z-index: 80;
-  display: flex;
   display: none;
 }
 
@@ -31,17 +30,23 @@
 }
 
 .add__card__overlay__wrap .modal__card__overlay__content {
+  position: relative;
+  top: -18vh;
   display: block;
   width: 500px;
   height: 200px;
-  background: #f0eaea;
+  background-color: #fff;
   text-align: center;
   z-index: 100;
-  border-radius: 10px;
+  border-radius: 4px 4px 0px 0px;
 }
 
 .add__card__overlay__wrap .modal__card__overlay__content h3 {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
+}
+
+.add__card__overlay__wrap .modal__card__overlay__content .modal__add__card__overlay__link .modal__add__card__icon {
+  margin-bottom: 35px;
 }
 
 .add__card__overlay__wrap .modal__card__overlay__content .btn__modal__addCard__wrap {
@@ -51,9 +56,25 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  background: #535252;
+  padding: 50px 0px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.add__card__overlay__wrap .modal__card__overlay__content .btn__modal__addCard__wrap .btn__continue__shoping {
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .add__card__overlay__wrap .modal__card__overlay__content .btn__modal__addCard__wrap .btn__checkout {
   padding: 10px;
+  text-transform: uppercase;
+  border: 1px solid #86c922;
+  color: #86c922;
+  font-weight: 500;
+}
+
+.add__card__overlay__wrap .modal__card__overlay__content .btn__modal__addCard__wrap .btn__checkout:hover {
+  background: #747171;
 }
 /*# sourceMappingURL=ModalSuccessfulAddition.css.map */

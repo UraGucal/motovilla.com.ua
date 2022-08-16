@@ -3,11 +3,10 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    left: 0; top: 0; right: 0; bottom: 0;
+    left: 0; top:0; right: 0; bottom: 0;
     justify-content: center;
     align-items: center;
     z-index: 80;
-    display: flex;
     display: none;
     .add__card__overlay{
         background-color: #000;
@@ -19,24 +18,42 @@
         opacity: 0.75;
     }
     .modal__card__overlay__content{
+        position: relative;
+        top: -18vh;
         display: block;
         width: 500px;
         height: 200px;
-        background: rgb(240, 234, 234);
+        background-color: #fff;
         text-align: center;
         z-index: 100;
-        border-radius: 10px;
+        border-radius: 4px 4px 0px 0px;
         h3{
-            margin-bottom: 100px;
+            margin-bottom: 30px;
+        }
+        .modal__add__card__overlay__link{
+            .modal__add__card__icon{
+                margin-bottom: 35px;
+            }
         }
         .btn__modal__addCard__wrap{
             display: flex;
             justify-content: space-evenly;
+            background: rgb(83, 82, 82);
+            padding: 50px 0px;
+            border-radius: 0px 0px 4px 4px;
             .btn__continue__shoping{
-
+                text-transform: uppercase;
+                font-weight: 500;
             }
             .btn__checkout{
                 padding: 10px;
+                text-transform: uppercase;
+                border: 1px solid rgb(134, 201, 34);
+                color: rgb(134, 201, 34);
+                font-weight: 500;
+                &:hover{
+                    background: rgb(116, 113, 113);
+                }
             }
         }
     }
