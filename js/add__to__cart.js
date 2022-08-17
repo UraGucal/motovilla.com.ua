@@ -17,18 +17,13 @@ window.addEventListener('click', function(event){
               counter: cardParent.querySelector('[data-counter]').innerText,
         }
         const cartItemHtml = `
-        <li class="product__card col-6 col-sm-4 col-md-4 col-lg-3" data-id="${productInfo.id}">
+        <li class="product__card " data-id="${productInfo.id}">
             <a class="woocomerce__loop__product__link" href="##">
-            <img class="product__image w-100" src="${productInfo.imgSrc}" alt="">
+              <img class="product__image w-100" src="${productInfo.imgSrc}" alt="">
             </a>
         <div class="woocomerce__loop__product__tittle">${productInfo.tittle}</div>
-        <span class="price bg-dark d-flex justify-content-center">
-          <span class="woocomerce__price__amount d-flex">
-            <p class="text-light m-0">Цена _   </p>
-            <bdi class="text-warning">
-               634 грн
-            </bdi>
-          </span>
+        <span class="price__wrapp">
+          <p class="price">555 грн</p>
         </span>
         <div class="amount">
           <span class="amount__discription">Кол-во</span>

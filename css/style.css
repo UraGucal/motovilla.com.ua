@@ -4,6 +4,10 @@
   font-family: 'Edu TAS Beginner', cursive;
 }
 
+body {
+  overflow-y: auto !important;
+}
+
 body .cart__window__dark__overlay {
   position: absolute;
   width: 100%;
@@ -100,7 +104,7 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
   position: absolute;
   top: 50px;
   display: none;
-  height: inherit;
+  height: 60vh;
   overflow: hidden;
   -webkit-box-shadow: 1px 1px 2px 3px #c3c1c1;
           box-shadow: 1px 1px 2px 3px #c3c1c1;
@@ -146,8 +150,8 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
   overflow: hidden;
 }
 
-body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .price .woocomerce__price__amount {
-  background: #807d7d;
+body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .price__wrapp .price {
+  margin: 0;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__discription {
@@ -155,17 +159,17 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .minus {
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   color: #f94c17;
   border: none;
-  border-radius: 100%;
+  border-radius: 50%;
   border: 1px solid #b7b3b3;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .plus {
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   color: #f94c17;
   border: none;
   border-radius: 100%;

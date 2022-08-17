@@ -3,6 +3,7 @@
     font-family: 'Edu TAS Beginner', cursive;
 }
 body{
+    overflow-y: auto !important;
     // cursor: url('../img/menu__icons/gasoline__tools.webp'), auto;
     .cart__window__dark__overlay{
         position: absolute;
@@ -93,7 +94,7 @@ body{
                             position: absolute;
                             top: 50px;
                             display: none;
-                            height: inherit;
+                            height: 60vh;
                             overflow: hidden;
                             box-shadow: 1px 1px 2px 3px rgb(195, 193, 193);
                             border-radius: 2px;
@@ -123,13 +124,10 @@ body{
                                             height: 20px;
                                             overflow: hidden;
                                         }
-                                        .price{
-                                            .woocomerce__price__amount{
-                                                background: rgb(128, 125, 125);
+                                        .price__wrapp{
+                                            .price{
+                                                margin: 0;
                                             }
-                                        }
-                                        .rating{
-
                                         }
                                         .amount{
                                             .amount__discription{
@@ -137,18 +135,16 @@ body{
                                             }
                                             .amount__btn__group{
                                                 .minus{
-                                                    width: 30px;
-                                                    height: 30px;
-                                                    // background: rgb(192, 208, 12);
+                                                    width: 34px;
+                                                    height: 34px;
                                                     color:rgb(249, 76, 23);
                                                     border: none;
-                                                    border-radius: 100%;
+                                                    border-radius: 50%;
                                                     border: 1px solid rgb(183, 179, 179);
                                                 }
                                                 .plus{
-                                                    // background: rgb(192, 208, 12);
-                                                    width: 30px;
-                                                    height: 30px;
+                                                    width: 34px;
+                                                    height: 34px;
                                                     color:rgb(249, 76, 23);
                                                     border: none;
                                                     border-radius: 100%;
