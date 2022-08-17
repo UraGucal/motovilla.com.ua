@@ -7,7 +7,7 @@ const body = document.querySelector('body');
 shopping__cart__desctop.onmouseenter = () => {
     cartWrappContent.style.display = 'flex'; 
     addOverlay.style.display = 'flex';
-    body.style.overflow = 'hidden';
+    body.style.overflowX = 'auto !important';
 }
 shopping__cart__desctop.onmouseleave = () => {
     cartWrappContent.style.display = 'none'; 

@@ -3,7 +3,6 @@
     font-family: 'Edu TAS Beginner', cursive;
 }
 body{
-    overflow-y: auto !important;
     // cursor: url('../img/menu__icons/gasoline__tools.webp'), auto;
     .cart__window__dark__overlay{
         position: absolute;
@@ -94,7 +93,7 @@ body{
                             position: absolute;
                             top: 50px;
                             display: none;
-                            height: 60vh;
+                            height: 65vh;
                             overflow: hidden;
                             box-shadow: 1px 1px 2px 3px rgb(195, 193, 193);
                             border-radius: 2px;
