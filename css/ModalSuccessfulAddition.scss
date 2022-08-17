@@ -24,6 +24,7 @@
         width: 500px;
         height: 200px;
         background-color: #fff;
+        box-shadow: 1px 2px 2px 3px #fff;
         text-align: center;
         z-index: 100;
         border-radius: 4px 4px 0px 0px;
@@ -41,6 +42,7 @@
             background: rgb(83, 82, 82);
             padding: 50px 0px;
             border-radius: 0px 0px 4px 4px;
+            box-shadow: 1px 2px 2px 3px #fff;
             .btn__continue__shoping{
                 text-transform: uppercase;
                 font-weight: 500;

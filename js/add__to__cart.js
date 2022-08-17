@@ -15,6 +15,7 @@ window.addEventListener('click', function(event){
               imgSrc:  cardParent.querySelector('.product__image').getAttribute('src'),
               tittle:  cardParent.querySelector('.woocomerce__loop__product__tittle').innerText,
               counter: cardParent.querySelector('[data-counter]').innerText,
+              price: cardParent.querySelector('.price').innerText,
         }
         const cartItemHtml = `
         <li class="product__card " data-id="${productInfo.id}">
@@ -23,7 +24,7 @@ window.addEventListener('click', function(event){
             </a>
         <div class="woocomerce__loop__product__tittle">${productInfo.tittle}</div>
         <span class="price__wrapp">
-          <p class="price">555 грн</p>
+          <p class="price">${productInfo.price}</p>
         </span>
         <div class="amount">
           <span class="amount__discription">Кол-во</span>
