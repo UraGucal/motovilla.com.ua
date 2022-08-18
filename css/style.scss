@@ -158,14 +158,26 @@ body{
                                         }
                                     }
                                 }
-                                .btn__buy{
-                                    margin-top: 10px;
-                                    padding: 10px 30px;
-                                    font-size: 22px;
-                                    background-color: #6aca8c;
-                                    
-                                    &:hover{
-                                        background-color: #79e49e;
+                                .checkout__wrap{
+                                    display: flex;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    .total__cost__tittle__in__cart{
+                                        color: rgb(65, 64, 64);
+                                        .total__const__price__in__cart{
+                                            font-weight: 300;
+                                        }
+                                    }   
+                                    .btn__buy{
+                                        margin-top: 10px;
+                                        padding: 10px 30px;
+                                        font-size: 22px;
+                                        background-color: #6aca8c;
+                                        color: white;
+                                        box-shadow: 1px 3px 6px rgb(133, 129, 129);
+                                        &:hover{
+                                            background-color: #79e49e;
+                                        }
                                     }
                                 }
                             }
