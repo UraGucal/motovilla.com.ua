@@ -134,13 +134,15 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .woocomerce__loop__product__link {
-  width: 160px;
+  width: 170px;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .woocomerce__loop__product__link .product__image {
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   height: 120px;
+  padding: 5px;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .woocomerce__loop__product__tittle {
@@ -148,10 +150,13 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
   max-width: 300px;
   height: 20px;
   overflow: hidden;
+  font-size: 18px;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .price__wrapp .price {
+  color: black;
   margin: 0;
+  font-size: 18px;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__discription {
@@ -165,6 +170,10 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
   border: none;
   border-radius: 50%;
   border: 1px solid #b7b3b3;
+}
+
+body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .result {
+  font-size: 20px;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .plus {

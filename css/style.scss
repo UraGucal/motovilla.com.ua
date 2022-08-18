@@ -111,10 +111,12 @@ body{
                                         width: 100%;
                                         border-bottom: 2px solid rgb(236, 233, 233);
                                         .woocomerce__loop__product__link{
-                                            width: 160px;
+                                            width: 170px;
                                             .product__image{
+                                                width: 100%;
                                                 object-fit: cover;
                                                 height: 120px;
+                                                padding: 5px;
                                             }
                                         }
                                         .woocomerce__loop__product__tittle{
@@ -122,10 +124,13 @@ body{
                                             max-width: 300px;
                                             height: 20px;
                                             overflow: hidden;
+                                            font-size: 18px;
                                         }
                                         .price__wrapp{
                                             .price{
+                                                color: black;
                                                 margin: 0;
+                                                font-size: 18px;
                                             }
                                         }
                                         .amount{
@@ -140,6 +145,9 @@ body{
                                                     border: none;
                                                     border-radius: 50%;
                                                     border: 1px solid rgb(183, 179, 179);
+                                                }
+                                                .result{
+                                                    font-size: 20px;
                                                 }
                                                 .plus{
                                                     width: 34px;
