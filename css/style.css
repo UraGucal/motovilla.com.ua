@@ -133,14 +133,18 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
   border-bottom: 2px solid #ece9e9;
 }
 
+body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .woocomerce__loop__product__link {
+  width: 160px;
+}
+
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .woocomerce__loop__product__link .product__image {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 140px;
+  height: 120px;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .woocomerce__loop__product__tittle {
-  max-width: 400px;
+  width: 300px;
   max-width: 300px;
   height: 20px;
   overflow: hidden;
