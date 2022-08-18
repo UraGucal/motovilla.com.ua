@@ -117,6 +117,7 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list {
   list-style: none;
   padding: 0;
+  margin-bottom: 40px;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card {
@@ -148,7 +149,7 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .woocomerce__loop__product__tittle {
   width: 300px;
   max-width: 300px;
-  height: 20px;
+  height: 22px;
   overflow: hidden;
   font-size: 18px;
 }
@@ -164,9 +165,10 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .minus {
+  background-color: #f1f1f1;
   width: 34px;
   height: 34px;
-  color: #f94c17;
+  color: #686312;
   border: none;
   border-radius: 50%;
   border: 1px solid #b7b3b3;
@@ -177,12 +179,17 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .plus {
+  background-color: #f0f0f0;
   width: 34px;
   height: 34px;
-  color: #f94c17;
+  color: #686312;
   border: none;
   border-radius: 100%;
   border: 1px solid #b7b3b3;
+}
+
+body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .plus:hover {
+  background: #f4f4f4;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .checkout__wrap {
@@ -194,10 +201,12 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .checkout__wrap .total__cost__tittle__in__cart {
-  color: #414040;
+  color: #252424;
   margin: 0;
 }
 
@@ -209,14 +218,14 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .checkout__wrap .btn__buy {
   padding: 10px 30px;
   font-size: 22px;
-  background-color: #6aca8c;
-  color: white;
-  -webkit-box-shadow: 1px 3px 6px #858181;
-          box-shadow: 1px 3px 6px #858181;
+  color: #0f9821;
+  border: 2px solid #12b628;
+  font-weight: 500;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .checkout__wrap .btn__buy:hover {
-  background-color: #79e49e;
+  background-color: #387d41;
+  color: white;
 }
 
 body .header .header__bottom {

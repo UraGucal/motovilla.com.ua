@@ -104,6 +104,7 @@ body{
                                 .buy__list{
                                     list-style: none;
                                     padding: 0;
+                                    margin-bottom: 40px;
                                     .product__card{
                                         display: flex;
                                         align-items: center;
@@ -122,7 +123,7 @@ body{
                                         .woocomerce__loop__product__tittle{
                                             width: 300px;
                                             max-width: 300px;
-                                            height: 20px;
+                                            height: 22px;
                                             overflow: hidden;
                                             font-size: 18px;
                                         }
@@ -139,9 +140,10 @@ body{
                                             }
                                             .amount__btn__group{
                                                 .minus{
+                                                    background-color: #f1f1f1;
                                                     width: 34px;
                                                     height: 34px;
-                                                    color:rgb(249, 76, 23);
+                                                    color: rgb(104, 99, 18);
                                                     border: none;
                                                     border-radius: 50%;
                                                     border: 1px solid rgb(183, 179, 179);
@@ -150,12 +152,16 @@ body{
                                                     font-size: 20px;
                                                 }
                                                 .plus{
+                                                    background-color: #f0f0f0;
                                                     width: 34px;
                                                     height: 34px;
-                                                    color:rgb(249, 76, 23);
+                                                    color: rgb(104, 99, 18);
                                                     border: none;
                                                     border-radius: 100%;
                                                     border: 1px solid rgb(183, 179, 179);
+                                                    &:hover{
+                                                        background: #f4f4f4;
+                                                    }
                                                 }
                                             }
                                         }
@@ -171,8 +177,10 @@ body{
                                     display: flex;
                                     justify-content: space-around;
                                     align-items: center;
+                                    padding: 20px;
+                                    border-radius: 10px;
                                     .total__cost__tittle__in__cart{
-                                        color: rgb(65, 64, 64);
+                                        color: rgb(37, 36, 36);
                                         margin: 0;
                                         .total__const__price__in__cart{
                                             font-weight: 400;
@@ -182,11 +190,12 @@ body{
                                     .btn__buy{
                                         padding: 10px 30px;
                                         font-size: 22px;
-                                        background-color: #6aca8c;
-                                        color: white;
-                                        box-shadow: 1px 3px 6px rgb(133, 129, 129);
+                                        color: rgb(15, 152, 33);
+                                        border: 2px solid rgb(18, 182, 40);
+                                        font-weight: 500;
                                         &:hover{
-                                            background-color: #79e49e;
+                                            background-color: rgb(56, 125, 65);
+                                            color: white;
                                         }
                                     }
                                 }
