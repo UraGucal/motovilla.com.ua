@@ -185,14 +185,15 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .checkout__wrap .total__cost__tittle__in__cart {
   color: #414040;
+  margin: 0;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .checkout__wrap .total__cost__tittle__in__cart .total__const__price__in__cart {
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .checkout__wrap .btn__buy {
-  margin-top: 10px;
   padding: 10px 30px;
   font-size: 22px;
   background-color: #6aca8c;

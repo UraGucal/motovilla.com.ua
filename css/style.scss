@@ -164,12 +164,13 @@ body{
                                     align-items: center;
                                     .total__cost__tittle__in__cart{
                                         color: rgb(65, 64, 64);
+                                        margin: 0;
                                         .total__const__price__in__cart{
-                                            font-weight: 300;
+                                            font-weight: 400;
+                                            font-size: 20px;
                                         }
                                     }   
                                     .btn__buy{
-                                        margin-top: 10px;
                                         padding: 10px 30px;
                                         font-size: 22px;
                                         background-color: #6aca8c;
