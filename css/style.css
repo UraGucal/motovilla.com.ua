@@ -224,8 +224,8 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .checkout__wrap .btn__buy:hover {
-  background-color: #387d41;
-  color: white;
+  background-color: #aaffb5;
+  color: #0f9821;
 }
 
 body .header .header__bottom {
