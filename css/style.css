@@ -174,6 +174,11 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
   border: 1px solid #b7b3b3;
 }
 
+body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .minus:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .result {
   font-size: 20px;
 }
@@ -190,6 +195,8 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .plus:hover {
   background: #f4f4f4;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .checkout__wrap {
@@ -224,8 +231,10 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .checkout__wrap .btn__buy:hover {
-  background-color: #aaffb5;
+  background-color: #c8f3ce;
   color: #0f9821;
+  -webkit-box-shadow: 0 0 10px rgba(57, 112, 64, 0.5);
+          box-shadow: 0 0 10px rgba(57, 112, 64, 0.5);
 }
 
 body .header .header__bottom {
@@ -609,8 +618,8 @@ body .contant .product__card__wrap .container .product__card__list .product__car
 body .contant .product__card__wrap .container .product__card__list .product__card:hover {
   opacity: 0.9;
   cursor: pointer;
-  -webkit-box-shadow: 1px 3px 16px #7b7a7a;
-          box-shadow: 1px 3px 16px #7b7a7a;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 4px;
 }
 
@@ -706,6 +715,8 @@ body .contant .product__card__wrap .container .product__card__list .product__car
 
 body .contant .product__card__wrap .container .product__card__list .product__card .amount .amount__btn__group .plus:active {
   background-color: #ab2424;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 body .contant .product__card__wrap .container .product__card__list .product__card .amount .amount__btn__group .result {
@@ -725,6 +736,8 @@ body .contant .product__card__wrap .container .product__card__list .product__car
 
 body .contant .product__card__wrap .container .product__card__list .product__card .amount .amount__btn__group .minus:active {
   background-color: #ab2424;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 body .contant .product__card__wrap .container .product__card__list .product__card .fast__buy__button {
@@ -803,6 +816,8 @@ body .contant .product__card__wrap .container .product__card__list .product__car
 .add__to__card__link .btn__add__to__card:hover {
   background-color: #78e39d;
   color: #000;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .add__to__card__link .btn__add__to__card i {

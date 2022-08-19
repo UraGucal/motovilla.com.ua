@@ -147,6 +147,9 @@ body{
                                                     border: none;
                                                     border-radius: 50%;
                                                     border: 1px solid rgb(183, 179, 179);
+                                                    &:hover{
+                                                        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                                                    }
                                                 }
                                                 .result{
                                                     font-size: 20px;
@@ -161,6 +164,7 @@ body{
                                                     border: 1px solid rgb(183, 179, 179);
                                                     &:hover{
                                                         background: #f4f4f4;
+                                                        box-shadow: 0 0 10px rgba(0,0,0,0.5);
                                                     }
                                                 }
                                             }
@@ -194,8 +198,9 @@ body{
                                         border: 2px solid rgb(18, 182, 40);
                                         font-weight: 500;
                                         &:hover{
-                                            background-color: rgb(170, 255, 181);
+                                            background-color: rgb(200, 243, 206);
                                             color: rgb(15, 152, 33);
+                                            box-shadow: 0 0 10px rgba(57, 112, 64, 0.5);
                                         }
                                     }
                                 }
@@ -543,7 +548,7 @@ body{
                             // background-color:#faf5f5;
                             opacity: 0.9;
                             cursor: pointer;
-                            box-shadow: 1px 3px 16px rgb(123, 122, 122);
+                            box-shadow: 0 0 10px rgba(0,0,0,0.5);
                             border-radius: 4px;
                         }
                         .woocomerce__loop__product__link{
@@ -607,6 +612,7 @@ body{
                                     background-color:rgb(230, 246, 165);
                                     &:active{
                                         background-color: rgb(171, 36, 36);
+                                        box-shadow: 0 0 10px rgba(0,0,0,0.5);
                                     }
                                 }
                                 .result{
@@ -622,6 +628,7 @@ body{
                                     margin: 6px;
                                     &:active{
                                         background-color: rgb(171, 36, 36);
+                                        box-shadow: 0 0 10px rgba(0,0,0,0.5);
                                     }
                                 }
                             }
@@ -693,6 +700,7 @@ body{
             // background-color:#4ec84c;
             background-color: #78e39d;
             color: #000;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
         }
         i{
             font-size: 24px;
