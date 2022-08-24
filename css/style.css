@@ -147,8 +147,8 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .woocomerce__loop__product__tittle {
-  width: 300px;
-  max-width: 300px;
+  width: 260px;
+  max-width: 240px;
   height: 22px;
   overflow: hidden;
   font-size: 18px;
@@ -162,6 +162,15 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__discription {
   display: none;
+}
+
+body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .minus {
@@ -181,6 +190,7 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .result {
   font-size: 20px;
+  width: 30px;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .plus {
@@ -191,12 +201,18 @@ body .header .header__top .container .row .shopping__cart__desctop .cart__conten
   border: none;
   border-radius: 100%;
   border: 1px solid #b7b3b3;
+  margin-right: 26px;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .plus:hover {
   background: #f4f4f4;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .buy__list .product__card .amount .amount__btn__group .fa-cart-arrow-down {
+  font-size: 36px;
+  color: #eb1f1f;
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp .cart__content .checkout__wrap {

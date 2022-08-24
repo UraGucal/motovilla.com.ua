@@ -32,6 +32,7 @@ window.addEventListener('click', function(event){
             <button type="button" class="minus" data-action="minus">-</button>
             <output class="result" data-counter>${productInfo.counter}</output>
             <button data-cart type="button" class="plus" data-action="plus">+</button>
+            <i class="fa-solid fa-cart-arrow-down" id="remove__card"></i>
           </div>
         </div>
       </li>

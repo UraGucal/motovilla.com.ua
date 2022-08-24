@@ -1,6 +1,5 @@
-
 const modal__input__searching = document.querySelector('.input__search');
-modal__input__searching.onmouseenter = () =>{
+modal__input__searching.onclick = () => {
     modal__input__searching.classList.add('input__modal__styles');
     const form__wrapper = document.querySelector('.form__wrapper');
     form__wrapper.classList.add('form__wrapper__absolut__for__search');
