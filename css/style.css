@@ -97,10 +97,10 @@ body .header .header__top .container .row .shopping__cart__desctop .shoping__car
 }
 
 body .header .header__top .container .row .shopping__cart__desctop .cart__content__wrapp {
-  position: absolute;
-  top: 50px;
+  position: fixed;
+  top: 87px;
   display: none;
-  max-height: 65vh;
+  max-height: 80vh;
   overflow: hidden;
   -webkit-box-shadow: 1px 1px 2px 3px #c3c1c1;
           box-shadow: 1px 1px 2px 3px #c3c1c1;

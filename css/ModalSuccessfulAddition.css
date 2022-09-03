@@ -21,7 +21,7 @@
 
 .add__card__overlay__wrap .add__card__overlay {
   background-color: #000;
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;

@@ -89,10 +89,10 @@ body{
                             border-radius: 50%;
                         }
                         .cart__content__wrapp{
-                            position: absolute;
-                            top: 50px;
+                            position: fixed;
+                            top: 87px;
                             display: none;
-                            max-height: 65vh;
+                            max-height: 80vh;
                             overflow: hidden;
                             box-shadow: 1px 1px 2px 3px rgb(195, 193, 193);
                             border-radius: 2px;
